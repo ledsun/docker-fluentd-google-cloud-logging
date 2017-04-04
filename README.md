@@ -1,6 +1,6 @@
 ```
 docker build -t stack-driver .
-docker run --rm -v (pwd):/etc/google/auth -v (pwd):/fluentd/etc/ stack-driver
+docker run --rm -v (pwd):/etc/google/auth stack-driver
 ```
 
 # 目的
